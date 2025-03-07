@@ -3,7 +3,7 @@
 import { defineProps } from "vue";
 
 defineProps<{
-  id: number | string;
+  id: number;
   name: string;
   owner: string;
   baseButtonType: string;
