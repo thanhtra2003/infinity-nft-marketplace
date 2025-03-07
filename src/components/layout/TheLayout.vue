@@ -1,6 +1,5 @@
 <template>
   <div>
-
     <TheMenu></TheMenu>
     <RouterView />
     <TheFooter></TheFooter>

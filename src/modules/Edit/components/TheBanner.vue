@@ -2,7 +2,7 @@
 
 <template>
   <div class="p-[80px] flex items-center justify-center text-[48px] font-bold capitalize">
-    <h1>Explore</h1>
+    <h1>Edit Profile</h1>
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
-  <div class="banner-home flex justify-between">
-    <div class="left relative">
+  <div class="banner-home flex justify-between ">
+    <div class="left relative sm:m-auto">
       <h2 class="text-heading-2 font-bold mt-33.25">Discover, find,</h2>
       <h2 class="gradient-text text-heading-2 font-bold">Sell extraordinary</h2>
       <!-- <img src="/logo/outline.svg" alt=""> -->
@@ -14,7 +14,7 @@
       </div>
       <!-- <img src="/logo/color.svg" alt="">  -->
     </div>
-    <div class="right relative mt-9.75 flex">
+    <div class="right relative mt-9.75 flex sm:hidden lg:hidden">
       <img src="/logo/outline2.svg" alt="" class="img1" />
       <img src="/logo/image.svg" alt="" class="img2" />
     </div>
@@ -36,10 +36,10 @@
     color: #000;
   }
   .gradient-text {
-    background: linear-gradient(to right, #e250e5, #4b50e6);
+    color: #14141f;
+    background: linear-gradient(-45deg, #E250E5, #4B50E6, #E250E5, #4B50E6);
+    background-size: 100% 100%;
     -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #000;
+    -webkit-text-stroke: 3px transparent;
   }
 </style>

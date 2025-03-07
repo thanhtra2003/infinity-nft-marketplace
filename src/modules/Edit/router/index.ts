@@ -2,18 +2,18 @@ import type { RouteRecordRaw } from 'vue-router'
 
 const TheLayout = () => import('@/components/layout/TheLayout.vue')
 
-const DetailRouter: RouteRecordRaw[] = [
+const EditRouter: RouteRecordRaw[] = [
   {
-    path: '/detail/:id',
+    path: '/',
     component: TheLayout,
     children: [
       {
-        path: '',
-        component: () => import('../view/DetailView.vue'),
-        name: 'Detail'
+        path: '/edit',
+        component: () => import('../view/EditView.vue'),
+        name: 'Edit'
       }
     ]
   }
 ]
 
-export default DetailRouter
+export default EditRouter

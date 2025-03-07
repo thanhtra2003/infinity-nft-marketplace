@@ -15,7 +15,7 @@ export default {
         max: '767px'
       },
       xs: {
-        max: '374'
+        max: '374px'
       }
     },
   }

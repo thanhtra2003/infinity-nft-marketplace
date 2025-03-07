@@ -2,7 +2,7 @@
 
   <div class="container">
     <HomeBanner></HomeBanner>
-    <TopSeller></TopSeller>
+    <TopSeller class="mt-[80px]"></TopSeller>
     <TodayPick></TodayPick>
     <PopularCollection></PopularCollection>
     <CreatAndSell></CreatAndSell>

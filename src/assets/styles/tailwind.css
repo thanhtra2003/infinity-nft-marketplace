@@ -20,6 +20,7 @@
   --color-name:#8A8AA0;
   --color-black: #14141F;
   --color-footer:#0D0D11;
+  --color-line: #1f1f2c;
 }
 
 @utility container {
